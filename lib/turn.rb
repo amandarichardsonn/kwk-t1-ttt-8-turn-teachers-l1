@@ -7,6 +7,9 @@ def display_board(board)
   puts "#{board[6]} | #{board[7]} | #{board[8]}"
 end
 
+def turn(board)
+  puts "Please enter 1-9:"
+end
 # def input_to_index(input)
 #   input.to_i-1
 # end
@@ -17,7 +20,7 @@ end
 #     false
 #   end
 # end
-# 
+#
 # def position_taken?(board, index)
 #   if board[index] == "x" || board[index] == "o"
 #     true
@@ -25,11 +28,11 @@ end
 #     false
 #   end
 # end
-# 
+#
 # def move(board, position, charatcer = "x")
 #   board[position] = charatcer
 # end
-# 
+#
 # def turn(board)
 #   puts "Please enter 1-9."
 #   input = gets.strip
